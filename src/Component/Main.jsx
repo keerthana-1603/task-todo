@@ -50,12 +50,13 @@ export default function Main() {
       }
       <div className="flex">
       <div className="Right_side">
-      <p className="Right_side"><b>My Todos</b></p></div>
+      <p className="Right_side"><b>My Todo</b></p></div>
         <div className="Left_side flex">
-      <p className="Left_side"><b>Status Filter:</b></p>
-      <select className="select select-bordered select-sm w-36 max-w-xs flex-row">
-                  <option>Complited</option>
-                  <option>Not Complited</option>
+      <p className="Left_side"><b>Status Filter : </b></p>
+      <select className="select select-bordered select-sm w-20 max-w-xs flex-row">
+                  <option>All</option>
+                  <option>Completed</option>
+                  <option>Not Completed</option>
                   </select></div></div>
 
      <div className="flex flex-wrap"> 

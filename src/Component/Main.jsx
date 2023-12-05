@@ -50,7 +50,7 @@ export default function Main() {
       }
       <div className="flex">
       <div className="Right_side">
-      <p className="Right_side"><b>Status Filter:</b></p></div>
+      <p className="Right_side"><b>My Todos</b></p></div>
         <div className="Left_side flex">
       <p className="Left_side"><b>Status Filter:</b></p>
       <select className="select select-bordered select-sm w-36 max-w-xs flex-row">

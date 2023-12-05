@@ -48,6 +48,16 @@ export default function Main() {
       ( <EditData taskdata={taskdata} setTaskdata={setTaskdata}
         showForm={showForm} setShowForm={setShowForm} editId={editId}/>)
       }
+      <div className="flex">
+      <div className="Right_side">
+      <p className="Right_side"><b>Status Filter:</b></p></div>
+        <div className="Left_side flex">
+      <p className="Left_side"><b>Status Filter:</b></p>
+      <select className="select select-bordered select-sm w-36 max-w-xs flex-row">
+                  <option>Complited</option>
+                  <option>Not Complited</option>
+                  </select></div></div>
+
      <div className="flex flex-wrap"> 
       {taskdata &&(
         <>

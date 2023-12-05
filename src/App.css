@@ -3,7 +3,11 @@
     padding: 0px;
     text-align: center;
 }
-.card-compact{
-    display: flex;
-    flex-direction: row;
+.Left_side{
+    margin-left: 420px;
 }
+.Right_side{
+    margin-left: 50px;
+}
+
+
